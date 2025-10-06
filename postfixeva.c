@@ -12,6 +12,7 @@ void push(int data)
     else
         stack[++top] = data;
 
+}
 int pop()
 {
     if (top < 0)
